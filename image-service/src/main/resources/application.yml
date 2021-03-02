@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: image-service # the name must match that set in configuration/ folder, i.e. eureka.yml in this case
+
+  config:
+    import:  optional:configserver:http://user:user@localhost:8888
+   
+  rabbitmq:
+    host: localhost # RabbitMQ host.
+    username: user # username to authenticate to the broker.
+    password: user # password to authenticate against the broker.
+    port: 5672 # RabbitMQ port.
+
+mongo:
+  database: test
+  host: localhost
+  port: 27017
+  username: dbadmin
+  password: dbadmin
+  timeout: 10000

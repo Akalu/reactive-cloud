@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: eureka # the name must match that set in configuration/ folder, i.e. eureka.yml in this case
+
+  config:
+    import:  optional:configserver:http://user:user@localhost:8888
+  
+ 
