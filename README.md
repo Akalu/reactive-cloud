@@ -176,7 +176,7 @@ name: image-service,
 port 8050
 
 ## Description
-A simple resource service used to serve the content (images and comments). A fail-fast service, which never blocks and uses under the hood the circuit breaker pattern
+A simple resource service used to serve the content (images and comments in the future). A fail-fast service, which never blocks and uses under the hood the circuit breaker pattern
 
 https://www.baeldung.com/spring-cloud-circuit-breaker
 
