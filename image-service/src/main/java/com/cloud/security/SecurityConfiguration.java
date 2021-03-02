@@ -23,7 +23,6 @@ import com.cloud.model.Role;
 /**
  * @author akaliutau
  */
-// tag::code[]
 @EnableWebFluxSecurity
 @EnableReactiveMethodSecurity
 public class SecurityConfiguration {
@@ -73,4 +72,3 @@ public class SecurityConfiguration {
 	}
 
 }
-// end::code[]

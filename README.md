@@ -254,7 +254,8 @@ docker-compose -f docker-compose-min.yml down
 Requirements
 =============
 
+* JDK 8+
 * Spring Boot 2.4.3 (which in turn requires Java Developer Kit (JDK) 8 or higher)
-* Lombock library
+* Lombok library
 * Docker (used to instantiate RabbitMQ 3.6 (https://www.rabbitmq.com/) and MongoDB 4.4 (https://www.mongodb.com/)
 

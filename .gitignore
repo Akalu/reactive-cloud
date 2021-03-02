@@ -24,3 +24,4 @@ vault.config
 .env
 node.lock
 .docker
+.uploaded
